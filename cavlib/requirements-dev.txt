@@ -1,0 +1,3 @@
+--extra-index-url https://google-coral.github.io/py-repo/
+-e .[dev]
+

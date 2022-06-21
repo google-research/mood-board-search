@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>inspect-spinner</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-52.6%" y="-52.6%" width="202.6%" height="202.6%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.490007926   0 0 0 0 0.490007926   0 0 0 0 0.490007926  0 0 0 0.71645542 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Studio-flow" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <g id="3.2---ACE-overlay-mode-change" transform="translate(-1026.000000, -509.000000)" stroke-width="3.60000014">
+            <g id="inspect-spinner" filter="url(#filter-1)" transform="translate(1032.000000, 515.000000)">
+                <circle id="Oval" stroke="#FFFFFF" cx="19.3500008" cy="19.3500008" r="14.0192313"></circle>
+                <path d="M19.3500008,33.3692321 C27.0926084,33.3692321 33.3692321,27.0926084 33.3692321,19.3500008 C33.3692321,11.6073931 27.0926084,5.33076944 19.3500008,5.33076944 C11.6073931,5.33076944 5.33076944,11.6073931 5.33076944,19.3500008 C5.33076944,27.0926084 11.6073931,33.3692321 19.3500008,33.3692321 Z" id="Oval" stroke="#00FFC4" stroke-dasharray="58.50000232458115,29" transform="translate(19.350001, 19.350001) rotate(60.000000) translate(-19.350001, -19.350001) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

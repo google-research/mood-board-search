@@ -1,0 +1,66 @@
+name: Test
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  test:
+    strategy:
+      matrix:
+        runner: [ubuntu-latest, macos-latest, windows-latest]
+        python-version: ["3.7", "3.8", "3.9"]
+      fail-fast: false
+
+    runs-on: ${{ matrix.runner }}
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v2
+      with:
+        python-version: ${{ matrix.python-version }}
+
+    - name: Install dependencies
+      working-directory: cavlib
+      run: |
+        python -m pip install --upgrade pip
+        pip install --extra-index-url https://google-coral.github.io/py-repo/ '.[dev]'
+
+    - name: Lint
+      working-directory: cavlib
+      run: |
+        mypy
+
+    - name: Test
+      working-directory: cavlib
+      run: |
+        pytest
+
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Set up Python 3.8
+      uses: actions/setup-python@v2
+      with:
+        python-version: "3.8"
+
+    - name: Check required files are included in sdist
+      working-directory: cavlib
+      run: |
+        pipx run check-manifest
+
+    - name: Build sdist and wheel
+      working-directory: cavlib
+      run: |
+        pipx run build
+
+    - name: Check package metadata
+      working-directory: cavlib
+      run: pipx run twine check dist/*

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>photo_library-24px</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Studio-flow" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="7.2---dropdown" transform="translate(-832.000000, -173.000000)">
+            <g id="photo_library-24px" transform="translate(831.000000, 172.000000)">
+                <polygon id="Path" points="0 0 20 0 20 20 0 20"></polygon>
+                <path d="M18.3333333,13.3333333 L18.3333333,3.33333333 C18.3333333,2.41666667 17.5833333,1.66666667 16.6666667,1.66666667 L6.66666667,1.66666667 C5.75,1.66666667 5,2.41666667 5,3.33333333 L5,13.3333333 C5,14.25 5.75,15 6.66666667,15 L16.6666667,15 C17.5833333,15 18.3333333,14.25 18.3333333,13.3333333 Z M9.16666667,10 L10.8583333,12.2583333 L13.3333333,9.16666667 L16.6666667,13.3333333 L6.66666667,13.3333333 L9.16666667,10 Z M1.66666667,5 L1.66666667,16.6666667 C1.66666667,17.5833333 2.41666667,18.3333333 3.33333333,18.3333333 L15,18.3333333 L15,16.6666667 L3.33333333,16.6666667 L3.33333333,5 L1.66666667,5 Z" id="Shape" fill="#3B59FF" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

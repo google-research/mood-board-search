@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="14px" viewBox="0 0 25 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>arrow-right</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Studio-flow" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="3.1---ACE-rollover" transform="translate(-477.000000, -509.000000)">
+            <g id="Group-3" transform="translate(457.000000, 204.000000)">
+                <g id="arrow-right" transform="translate(21.000000, 304.500000)">
+                    <line x1="0.5" y1="7.5" x2="12.5" y2="7.5" id="Line-2" stroke="#E8EAED" stroke-width="3" stroke-linecap="square"></line>
+                    <polygon id="Triangle-Copy-6" fill="#E8EAED" transform="translate(18.000000, 7.500000) rotate(90.000000) translate(-18.000000, -7.500000) " points="18 2 25 13 11 13"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

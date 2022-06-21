@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Studio-flow" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M8,0 C3.584,0 0,3.584 0,8 C0,12.416 3.584,16 8,16 C12.416,16 16,12.416 16,8 C16,3.584 12.416,0 8,0 Z M9,13 L7,13 L7,7 L9,7 L9,13 Z M9,5 L7,5 L7,3 L9,3 L9,5 Z" style="fill: currentColor" fill-rule="nonzero"></path>
+    </g>
+</svg>

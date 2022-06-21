@@ -1,0 +1,81 @@
+{
+    "snapshots":[
+
+        {
+            "projectId":"200200fZEi74",
+            "snapshotId":"200200163828kie7c8",
+            "name":"SightUnseen",
+            "date":1584895108470,
+            "creatorName":"Alexander Etchells",
+            "publishInfo":{
+                "location":"London",
+                "heroImages":{
+                    "0":{"id":"39cc3dcb3732b311d6d025c3a73d235f","weight":1,"enabled":true,"user_generated":false},
+                    "1":{"id":"d6bc95651bc623e1da8dc363445f479a","weight":4,"enabled":true,"user_generated":false},
+                    "2":{"id":"9d537d9bed7c294509d4155315a17d41","weight":4,"enabled":true,"user_generated":false},
+                    "3":{"id":"81a9027b3d3abf75d2c1eafa9fdb55b1","weight":4,"enabled":true,"user_generated":false},
+                    "4":{"id":"41ac23180f74b3b279e9d3477f560715","weight":4,"enabled":true,"user_generated":false},
+                    "5":{"id":"b9c4ec2664f3ae62acf174433cd12ca4","weight":4,"enabled":true,"user_generated":false}
+                },
+                "description":"",
+                "visualQualities":"",
+                "summary":"",
+                "subjectiveQualities":"The extraordinary ordinary. Abstract details in often overlooked scenes. Cultural traces. Curiosity. Humour."
+            },
+            "id":"200200163828kie7c8"
+        },
+
+
+        {
+            "date":1584991446036,
+            "creatorName":"Tom Hatton",
+            "publishInfo":{
+                "location":"London",
+                "description":"",
+                "visualQualities":"",
+                "summary":"",
+                "subjectiveQualities":"Meditative, Trance-like. Objects begin to separate from what they signify, allowing new visual tensions to emerge.",
+                "heroImages":{
+                    "0":{"id":"a8401b0ee2a7b6846c13c2d151185226","weight":4,"enabled":true,"user_generated":false},
+                    "1":{"id":"53d1c39a3c98dc2d8af779f11ff57e4d","weight":4,"enabled":true,"user_generated":false},
+                    "2":{"id":"d78cb400583dc28a0f3639113ae4f750","weight":4,"enabled":true,"user_generated":false},
+                    "3":{"id":"58fc10d9decf06baa5bd67baf5146d4e","weight":4,"enabled":true,"user_generated":false},
+                    "4":{"id":"febddec8338e1669da27be49d50b9fc3","weight":1,"enabled":true,"user_generated":false},
+                    "5":{"id":"0569da60178e9689026a5f6f48e319b4","weight":4,"enabled":true,"user_generated":false}
+                }
+            },
+            "projectId":"200203g4cqbw",
+            "snapshotId":"2002011259342sumvF",
+            "name":"StatesOfMind",
+            "id":"2002011259342sumvF"
+        },
+
+
+        {
+            "snapshotId":"200200181121LdModJ",
+            "name":"Fracture",
+            "date":1585074717790,
+            "creatorName":"Rachel Maggart",
+            "publishInfo":{
+                "location":"London",
+                "visualQualities":"",
+                "summary":"",
+                "subjectiveQualities":"Deconstructionist. Broken into pieces for understanding the whole. Visually evocative. Inexplicable.",
+                "heroImages":{
+                    "0":{"id":"7bdd685d83eb738532d53a0ba7ca99c0","weight":4,"enabled":true,"user_generated":false},
+                    "1":{"id":"dc9cb1b1ddcb35c116d50113fd7a67e1","weight":4,"enabled":true,"user_generated":false},
+                    "2":{"id":"d417fafabb1d9c9c768b64f1da6ea4fc","weight":4,"enabled":true,"user_generated":false},
+                    "3":{"id":"8fc3f4ca95124e6a8a89798de56f2bd3","weight":4,"enabled":true,"user_generated":false},
+                    "4":{"id":"7b59fcc4c44f9ff370d19d70c5f25e96","weight":1,"enabled":true,"user_generated":false},
+                    "5":{"id":"08971effe51658b66ed54818a701fc5a","weight":4,"enabled":true,"user_generated":false}
+
+                },
+                "description":""
+            },
+            "projectId":"200206ke2HZe",
+            "id":"200200181121LdModJ"
+        }
+
+    ]
+
+}

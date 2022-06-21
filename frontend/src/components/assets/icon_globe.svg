@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon_globe</title>
+    <g id="Studio-flow" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Concept-library:-published" transform="translate(-158.000000, -644.000000)">
+            <g id="icon_globe" transform="translate(158.000000, 644.000000)">
+                <polygon id="Path" points="0 0 18 0 18 18 0 18"></polygon>
+                <path d="M9,1.5 C4.86,1.5 1.5,4.86 1.5,9 C1.5,13.14 4.86,16.5 9,16.5 C13.14,16.5 16.5,13.14 16.5,9 C16.5,4.86 13.14,1.5 9,1.5 Z M8.25,14.9475 C5.2875,14.58 3,12.06 3,9 C3,8.535 3.06,8.0925 3.1575,7.6575 L6.75,11.25 L6.75,12 C6.75,12.825 7.425,13.5 8.25,13.5 L8.25,14.9475 Z M13.425,13.0425 C13.23,12.435 12.675,12 12,12 L11.25,12 L11.25,9.75 C11.25,9.3375 10.9125,9 10.5,9 L6,9 L6,7.5 L7.5,7.5 C7.9125,7.5 8.25,7.1625 8.25,6.75 L8.25,5.25 L9.75,5.25 C10.575,5.25 11.25,4.575 11.25,3.75 L11.25,3.4425 C13.4475,4.335 15,6.4875 15,9 C15,10.56 14.4,11.9775 13.425,13.0425 Z" id="Shape" fill="#878C93" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

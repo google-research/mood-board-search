@@ -1,0 +1,274 @@
+* {
+  box-sizing: border-box;
+}
+
+
+html, body {
+  font-family: "Hanken Grotesk", Roboto, sans-serif;
+  color: #454545;
+  letter-spacing: 0.0143em;
+  line-height: 1.45em;
+
+  height: 100%;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+}
+
+p {
+  margin-top: 0;
+}
+
+button {
+  letter-spacing: inherit;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  color: inherit;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.fill {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.margins {
+  min-width: 800px;
+
+  margin: 0 3.4vw;
+  $margin: 3.4vw;
+  $max-margin: 38px;
+  $breakpoint: $max-margin / ($margin / 100vw);
+
+  @media (min-width: $breakpoint) {
+    margin: 0 $max-margin;
+  }
+}
+
+.header-button {
+  font-weight: 700;
+  font-size: 17px;
+  color: #454545;
+  text-align: right;
+  text-decoration: none;
+  &.disabled {
+    color: #B8B8B8;
+  }
+}
+
+button.studio-button {
+  display: inline-block;
+  background: #3B59FF;
+  border: none;
+  color: white;
+  font: inherit;
+  font-weight: 500;
+  padding: 1px 30px 0px 30px;
+  line-height: 37px;
+  border-radius: 19px;
+  font-size: 15px;
+  letter-spacing: 0.21px;
+  cursor: pointer;
+
+  &:active {
+    background: rgb(46, 73, 226);
+  }
+
+  &.disabled {
+    background: #FFFFFF;
+    color: #EAEAEA;
+    cursor: unset;
+  }
+}
+
+// 'fade' transition
+
+.fade-enter-active, .fade-leave-active {
+  transition: opacity 0.25s ease-out;
+}
+
+.fade-enter, .fade-leave-to {
+  opacity: 0;
+}
+
+// vue-js-modal
+
+#app {
+  .v--modal-overlay {
+    background: rgba(255, 255, 255, 0.92);
+  }
+  .v--modal {
+    background: #FFFFFF;
+    box-shadow: 0 2px 60px -25px rgba(0,0,0,0.50);
+  }
+
+  .vue-dialog {
+   padding: 20px 28px 5px 28px;
+  }
+  .dialog-content {
+    font-size: 16px;
+    letter-spacing: 0.23px;
+    text-align: center;
+  }
+  .dialog-c-title {
+    font-weight: 700;
+    color: #454545;
+  }
+  .dialog-c-text {
+    font-weight: 400;
+    color: #B5B5B5;
+  }
+  .vue-dialog-buttons {
+    border: none;
+    justify-content: flex-end;
+  }
+  .vue-dialog-buttons button {
+    border: none;
+    cursor: pointer;
+    width: unset;
+    flex: unset !important;
+    font-weight: 500;
+    font-size: 16px !important;
+    color: #454545;
+    letter-spacing: 0.23px;
+    font-family: inherit;
+    margin-left: 20px;
+  }
+  .vue-dialog-buttons .destructive {
+    color: #FF005E;
+  }
+  .vue-dialog-buttons .default {
+    color: #3B59FF;
+  }
+}
+
+// v-tooltip
+
+.tooltip {
+  display: block !important;
+  z-index: 10000;
+
+  font-family: Roboto, sans-serif;
+  font-size: 13px;
+  color: #5E5E5E;
+  text-align: left;
+  line-height: 18px;
+
+  h5 {
+    font-weight: 500;
+    font-size: inherit;
+    margin: 0;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  .tooltip-inner {
+    background: white;
+    border-radius: 0;
+    padding: 9px 12px;
+    box-shadow: 0 2px 15px -5px rgba(0,0,0,0.50);
+  }
+
+  .tooltip-arrow {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    position: absolute;
+    margin: 5px;
+    border-color: white;
+  }
+
+  // arrow boilerplate
+
+  &[x-placement^="top"] {
+    margin-bottom: 5px;
+
+    .tooltip-arrow {
+      border-width: 5px 5px 0 5px;
+      border-left-color: transparent !important;
+      border-right-color: transparent !important;
+      border-bottom-color: transparent !important;
+      bottom: -5px;
+      left: calc(50% - 5px);
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  }
+
+  &[x-placement^="bottom"] {
+    margin-top: 5px;
+
+    .tooltip-arrow {
+      border-width: 0 5px 5px 5px;
+      border-left-color: transparent !important;
+      border-right-color: transparent !important;
+      border-top-color: transparent !important;
+      top: -5px;
+      left: calc(50% - 5px);
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  }
+
+  &[x-placement^="right"] {
+    margin-left: 5px;
+
+    .tooltip-arrow {
+      border-width: 5px 5px 5px 0;
+      border-left-color: transparent !important;
+      border-top-color: transparent !important;
+      border-bottom-color: transparent !important;
+      left: -5px;
+      top: calc(50% - 5px);
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+
+  &[x-placement^="left"] {
+    margin-right: 5px;
+
+    .tooltip-arrow {
+      border-width: 5px 0 5px 5px;
+      border-top-color: transparent !important;
+      border-right-color: transparent !important;
+      border-bottom-color: transparent !important;
+      right: -5px;
+      top: calc(50% - 5px);
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+
+  &[aria-hidden='true'] {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .15s, visibility .15s;
+  }
+
+  &[aria-hidden='false'] {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity .15s;
+  }
+}

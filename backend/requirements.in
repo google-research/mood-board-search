@@ -1,0 +1,22 @@
+django>=3.2
+django-rest-framework
+numpy
+ipython
+pip-tools
+tflite_runtime
+pillow
+numpy==1.18.1
+scikit-image==0.16.2
+pyinstrument
+django-cors-headers
+flake8
+cached-property
+scikit-learn
+tqdm
+msgpack
+gunicorn[gthread]
+methodtools
+platformdirs
+tqdm
+typing-extensions
+-e file:../cavlib

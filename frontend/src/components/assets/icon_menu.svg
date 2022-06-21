@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="21px" viewBox="0 0 21 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>icon_menu</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Studio-flow" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="2.1---tweaking-and-iterating" transform="translate(-212.000000, -524.000000)">
+            <g id="icon_menu" transform="translate(213.000000, 525.000000)">
+                <circle id="Oval" stroke="#FFFFFF" stroke-width="2" fill-opacity="0.6" fill="#838383" cx="9.5" cy="9.5" r="9.5"></circle>
+                <path d="M15.5499998,9.5 C15.5499998,10.32851 14.8785098,11 14.0499998,11 C13.2214898,11 12.5499998,10.32851 12.5499998,9.5 C12.5499998,8.67149 13.2214898,8 14.0499998,8 C14.8785098,8 15.5499998,8.67149 15.5499998,9.5" id="Fill-1" fill="#FFFFFF"></path>
+                <path d="M10.9499999,9.5 C10.9499999,10.32851 10.2785099,11 9.4499999,11 C8.6214899,11 7.9499999,10.32851 7.9499999,9.5 C7.9499999,8.67149 8.6214899,8 9.4499999,8 C10.2785099,8 10.9499999,8.67149 10.9499999,9.5" id="Fill-2" fill="#FFFFFF"></path>
+                <path d="M6,9.5 C6,10.32851 5.32851,11 4.5,11 C3.67149,11 3,10.32851 3,9.5 C3,8.67149 3.67149,8 4.5,8 C5.32851,8 6,8.67149 6,9.5" id="Fill-3" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>
