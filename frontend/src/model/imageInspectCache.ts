@@ -17,7 +17,8 @@
 import cavServer, { CropSpec, CropsResponse } from './cavServer'
 import { CAVServerImage } from './CAVImage';
 import _ from 'lodash'
-import Semaphore from './lib/Semaphore';
+import Semaphore from '../../../third_party/Semaphore';
+;
 
 export interface Ticket<T> {
     cacheKey: string;

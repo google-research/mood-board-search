@@ -20,7 +20,7 @@ import { ServerTrainingImage, CAVServerImage } from './CAVImage';
 import { SEARCH_DATASET } from './ScoutImageDataset';
 import _ from 'lodash';
 import * as imageUtils from './imageUtils';
-import Semaphore from './lib/Semaphore';
+import Semaphore from '../../../third_party/Semaphore';
 
 let SERVER_URL = 'http://localhost:8000'
 
