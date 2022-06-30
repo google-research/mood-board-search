@@ -42,7 +42,7 @@ export default {
 <style lang="scss">
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
-@import './assets/hanken-grotesk/stylesheet.css';
+@import '../../third_party/hanken-grotesk/stylesheet.css';
 @import './styles.scss';
 
 #app {
