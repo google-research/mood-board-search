@@ -146,7 +146,7 @@ You have a few options:
 
 ## Contributors
 
-This is not an official Google product, but an experiment that was a collaborative effort by friends from Nord Projects and Google Brain, Mural, and PAIR teams at Google.
+This is not an officially supported Google product, but an experiment that was a collaborative effort by friends from Nord Projects and Google Brain, Mural, and PAIR teams at Google.
 
 - [Nord Projects](https://github.com/nordprojects)
 - [Been Kim](https://github.com/BeenKim)
