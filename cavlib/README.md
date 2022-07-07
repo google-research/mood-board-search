@@ -9,7 +9,7 @@ CAVlib is a Python library that lets you use concept activation vectors ([CAVs])
 In only a few lines of code, CAVlib unlocks the power of meaningful visual AI interpretation for a host of potential new applications. CAVlib is designed to have a simple, Python API, that's usable by developers - no ML experience needed!
 
 [CAVs]: https://arxiv.org/abs/1711.11279
-[Mood Board Search]: https://github.com/nordprojects/mood-board-search
+[Mood Board Search]: https://github.com/google-research/mood-board-search
 
 <!-- MARK intro end -->
 
@@ -20,7 +20,7 @@ In only a few lines of code, CAVlib unlocks the power of meaningful visual AI in
 CAVlib can be installed through pip.
 
 ```sh
-$ pip install 'git+https://github.com/nordprojects/mood-board-search.git#egg=cavlib&subdirectory=cavlib'
+$ pip install 'git+https://github.com/google-research/mood-board-search.git#egg=cavlib&subdirectory=cavlib'
 ```
 
 CAVlib supports Python 3.7, 3.8, and 3.9, on macOS, Linux and Windows.
@@ -30,7 +30,7 @@ CAVlib supports Python 3.7, 3.8, and 3.9, on macOS, Linux and Windows.
 > this:
 >
 > ```sh
-> $ pip install --extra-index-url https://google-coral.github.io/py-repo/ 'git+https://github.com/nordprojects/mood-board-search.git#egg=cavlib&subdirectory=cavlib'
+> $ pip install --extra-index-url https://google-coral.github.io/py-repo/ 'git+https://github.com/google-research/mood-board-search.git#egg=cavlib&subdirectory=cavlib'
 
 > ```
 
