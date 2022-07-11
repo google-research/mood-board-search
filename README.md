@@ -109,7 +109,7 @@ Once you're all set up, you can start the two servers to use CAVstudio.
 To run the backend, open one terminal window and do:
 
     cd backend
-    env/bin/python3.8 manage.py runserver
+    python manage.py runserver
 
 In another terminal window, run the frontend server:
 
