@@ -78,10 +78,18 @@ To set up the backend:
 
     cd backend
 
-    python3.8 -m venv env
-    source env/bin/activate
+    python -m venv env
+    .env\bin\activate
     pip install -U pip
     pip install -r requirements.txt
+    python -m pip install Django
+    pip install tqdm numpy Pillow cached-property
+    
+    
+    cd ..
+    pip install --extra-index-url https://google-coral.github.io/py-repo/ .\cavlib
+    cd backend
+    pip install platformdirs djangorestframework django-cors-headers 
 
 Finally, download a sample set of images to work from. This script downloads two files:
 
@@ -100,6 +108,7 @@ The backend is now ready to go.
 Next, set up the frontend:
 
     cd frontend
+    npm install -g @vue/cli
     npm ci
 
 ### Running
