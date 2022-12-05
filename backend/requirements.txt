@@ -102,10 +102,6 @@ pyflakes==2.1.1
     # via flake8
 pygments==2.5.2
     # via ipython
-pyinstrument==3.1.3
-    # via -r requirements.in
-pyinstrument-cext==0.2.2
-    # via pyinstrument
 pyparsing==2.4.6
     # via matplotlib
 python-dateutil==2.8.1

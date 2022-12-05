@@ -7,7 +7,6 @@ tflite_runtime
 pillow
 numpy==1.18.1
 scikit-image==0.16.2
-pyinstrument
 django-cors-headers
 flake8
 cached-property
