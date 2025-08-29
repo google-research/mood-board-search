@@ -1,0 +1,44 @@
+[project]
+name = "cavstudio-backend"
+version = "0.1.0"
+description = "CAV Studio Backend - Concept Activation Vectors Web Application"
+authors = [{name = "CAV Studio Team", email = "team@cavstudio.com"}]
+requires-python = ">=3.8"
+dependencies = [
+    "django==3.2.8",
+    "django-cors-headers==3.2.1",
+    "djangorestframework==3.11.0",
+    "numpy<2.0",
+    "pillow",
+    "scikit-learn",
+    "scikit-image",
+    "tflite-runtime",
+    "cached-property",
+    "tqdm",
+    "requests",
+    "platformdirs",
+    "msgpack",
+    "typing_extensions",
+    "networkx",
+    "imageio",
+    "methodtools",
+    "cavlib @ file:///../cavlib",
+]
+
+[project.optional-dependencies]
+dev = [
+    "flake8",
+    "ipython",
+    "pytest",
+    "pytest-django",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.uv]
+dev-dependencies = []

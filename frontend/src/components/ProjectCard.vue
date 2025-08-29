@@ -53,7 +53,7 @@
             <div class="globe" />
             {{ snapshot.publishInfo.location }}
           </div>
-          <button class="try-button">
+          <button class="try-button" @click.stop="navigateToProject">
             Try Concept
           </button>
         </div>
@@ -113,6 +113,9 @@ export default {
     },
     deleteProject() {
       this.$emit('deleteProject')
+    },
+    navigateToProject() {
+      this.$router.push({name: 'project-snapshot', params: {snapshotId: this.snapshot.id}})
     }
   },
   computed: {

@@ -1,0 +1,102 @@
+Microsoft Windows [Version 10.0.22000.778]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\WINDOWS\system32>cd C:\Users\schlb\Documents\GitHub\mood-board-search
+
+C:\Users\schlb\Documents\GitHub\mood-board-search>ls
+LICENSE  README.md  backend  cavlib  contributing.md  frontend  third_party
+
+C:\Users\schlb\Documents\GitHub\mood-board-search>cd backend
+
+C:\Users\schlb\Documents\GitHub\mood-board-search\backend>ls
+bin  cavstudio_backend  cavstudio_db  env  manage.py  requirements.in  requirements.txt
+
+C:\Users\schlb\Documents\GitHub\mood-board-search\backend>.\env\Scripts\activate
+
+(env) C:\Users\schlb\Documents\GitHub\mood-board-search\backend>pip install -U pip
+(env) C:\Users\schlb\Documents\GitHub\mood-board-search\backend>pip install -r requirements.txt
+
+
+(env) C:\Users\schlb\Documents\GitHub\mood-board-search\backend>python -m pip install Django
+
+
+(env) C:\Users\schlb\Documents\GitHub\mood-board-search\backend>pip install tqdm
+
+
+(env) C:\Users\schlb\Documents\GitHub\mood-board-search\backend>pip install numpy
+
+(env) C:\Users\schlb\Documents\GitHub\mood-board-search\backend>pip install Pillow
+(env) C:\Users\schlb\Documents\GitHub\mood-board-search\backend>pip install cached-property
+(env) C:\Users\schlb\Documents\GitHub\mood-board-search\backend>cd ..
+(env) C:\Users\schlb\Documents\GitHub\mood-board-search>pip install --extra-index-url https://google-coral.github.io/py-repo/ .\cavlib
+(env) C:\Users\schlb\Documents\GitHub\mood-board-search>cd backend
+(env) C:\Users\schlb\Documents\GitHub\mood-board-search\backend>pip install platformdirs
+(env) C:\Users\schlb\Documents\GitHub\mood-board-search\backend>pip install djangorestframework
+(env) C:\Users\schlb\Documents\GitHub\mood-board-search\backend>pip install django-cors-headers
+(env) C:\Users\schlb\Documents\GitHub\mood-board-search\backend>python bin/download_data.py
+
+##########################
+# CAVstudio setup script #
+##########################
+
+This script will download and prepare all the data required to use
+CAVstudio. This comprises the image bank, which provides a dataset for
+your concepts to search, and our featured concepts.
+
+It will download ~1.1GB of data, and then will preprocess the images
+to create activations. The whole process should take around 10-15
+minutes.
+
+Please note: the images inside the featured concepts are made publicly
+available for use in CAVstudio only. Copyright is retained by the
+owners of these images.
+
+Press 'y' followed by 'Enter' to continue.
+
+Continue [y/N]: y
+------> 1/8 Downloading featured concept archive...
+featured_concepts_v2.zip: 119MB [00:22, 5.57MB/s]
+------> 2/8 Unpacking concept archive...
+------> 3/8 Downloading image bank archive...
+cavstudio_image_bank_sample_set_v2.zip: 804MB [02:14, 6.26MB/s]
+------> 4/8 Unpacking image bank archive...
+------> 5/8 Copying files into place...
+100%|█████████████████████████████████████████████████████████████████████████| 6144/6144 [00:00<00:00, 26480.19file/s]
+------> 6/8 Adding concept metadata to database...
+Operations to perform:
+  Apply all migrations: cavstudio_db
+Running migrations:
+  Applying cavstudio_db.0001_initial... OK
+adding featured snapshots...
+------> 7/8 Precomputing activations...
+100%|███████████████████████████████████████████████████████████████████████████| 2860/2860 [05:12<00:00,  9.16image/s]
+------> 8/8 Done!
+
+(env) C:\Users\schlb\Documents\GitHub\mood-board-search\backend>
+
+(env) C:\Users\schlb\Documents\GitHub\mood-board-search\backend>cd ..
+
+(env) C:\Users\schlb\Documents\GitHub\mood-board-search>cd frontend
+
+(env) C:\Users\schlb\Documents\GitHub\mood-board-search\frontend>npm ci
+npm WARN deprecated urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+npm WARN deprecated source-map-resolve@0.5.3: See https://github.com/lydell/source-map-resolve#deprecated
+npm WARN deprecated resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+[###########.......] / reify:lodash: timing reifyNode:node_modules/bluebird Completed in 3573ms
+
+
+
+
+(env) C:\Users\schlb\Documents\GitHub\mood-board-search\backend>pip install methodtools
+(env) C:\Users\schlb\Documents\GitHub\mood-board-search\backend>python manage.py runserver
+
+
+(env) C:\Users\schlb\Documents\GitHub\mood-board-search>cd ..
+(env) C:\Users\schlb\Documents\GitHub\mood-board-search>cd frontend
+(env) C:\Users\schlb\Documents\GitHub\mood-board-search\frontend>npm install -g @vue/cli
+(env) C:\Users\schlb\Documents\GitHub\mood-board-search\frontend>npm run serve
+

@@ -142,11 +142,11 @@ class CAVStats:
 
     def to_dict(self):
         return {
-            'mean': self.mean,
-            'stddev': self.stddev,
-            'max': self.max,
-            'min': self.min,
-            'top_5_mean': self.top_5_mean,
+            'mean': float(self.mean),
+            'stddev': float(self.stddev),
+            'max': float(self.max),
+            'min': float(self.min),
+            'top_5_mean': float(self.top_5_mean),
         }
 
 
