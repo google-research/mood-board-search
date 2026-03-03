@@ -18,7 +18,7 @@ livehtml:
 	sphinx-autobuild -a --watch ../src --watch ../README.md "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
 upload: html
-	gsutil rsync -r _build/html/ gs://cavlib/87hf9s987hf90ashbf628nf0amsfhjakskf671bf/
+	gcloud storage rsync --recursive _build/html/ gs://cavlib/87hf9s987hf90ashbf628nf0amsfhjakskf671bf/
 
 # Catch-all target: route all unknown targets to Sphinx using the new
 # "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).
